@@ -1,0 +1,13 @@
+product: jvm/app
+
+settings:
+  kotlin:
+    version: 2.4.0-RC2
+    allWarningsAsErrors: true
+
+dependencies:
+  - org.jetbrains.kotlinx:kotlinx-datetime:0.8.0
+  - io.ktor:ktor-client-java:3.5.0
+
+test-dependencies:
+  - io.mockk:mockk:1.14.11
